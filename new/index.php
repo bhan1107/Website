@@ -6,7 +6,7 @@
 	<title> My Website for CISC282 </title>
 	<meta name="author" content="Ben Han (Dongho Han)">
 	<link rel="stylesheet" href="./new.css">
-	<script src="new.js"></script>
+	
 	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="./jquery.jscroll.js"></script>
 
