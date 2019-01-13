@@ -1,0 +1,146 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+ 
+body, table, div, p, .content {font-family:'Nanum Gothic';}
+#custom-header{
+	display:block;
+	margin:0;
+	padding:0;
+	font-size:0;
+	text-align:center;
+	text-indent:-999em;
+	line-height:0;
+	overflow:hidden;
+	z-index:8;
+}
+
+#custom-header img{
+	text-align:center;
+	margin:0 auto 0
+}
+
+.menu-toggle{
+	display:block;
+	font-size:1.8em;
+	font-weight:400;
+	text-transform:none;
+	text-align:center;
+	margin:0;
+	padding:12px
+}
+
+#navigation{
+	display:block;
+	background:0 0;
+	font-size:.8em;
+	font-style:normal;
+	font-weight:400;
+	letter-spacing:.2px;
+	margin:0 auto 0px;
+	padding:0;
+	text-align:center;
+}
+
+.time-icon{
+	height: 10px;
+	width: auto;
+}
+.menu-toggle{
+	display:none;
+	cursor:initial;
+}
+
+.menu,.menu *{
+	margin:0;padding:0;list-style:none
+}
+.menu{
+	width:auto;
+	width:-webkit-fit-content;
+	width:-moz-fit-content;
+	width:fit-content
+}
+
+.menu ul{
+	margin:0;
+	padding:0
+}
+.menu li:hover{
+	visibility:inherit
+}
+.menu li{
+	display:inline-block;
+	position:relative;
+}
+.menu a{
+	display:inline-block;
+	position:relative;
+}
+.menu li:hover ul{
+	top:50px;
+	z-index:99;
+}
+
+.menu{
+	margin:0 auto 0px;
+}
+.menu a{
+	color:#999;
+	color:rgba(0,0,0,.5);
+	text-align:center;
+	text-decoration:none;
+	line-height:1.2;
+	margin:0;
+	padding:0 12px;
+	border-left:1px solid rgba(0,0,0,.2)
+}
+
+.menu a{
+	color:#999;
+	color:rgba(0,0,0,.5);
+	text-shadow:none;
+}
+.menu a:hover{
+	color:#333;
+	color:rgba(0,0,0,.9);
+	outline:0;
+}
+.menu li:first-child a{
+	border-left:none
+}
+.menu li li a{
+	display:block;
+	color:#999;
+	color:rgba(0,0,0,.5);
+	height:auto;
+	line-height:32px;
+	margin:0 12px;
+	padding:0;
+	text-align:center;
+	text-decoration:none;
+	border-left:none;
+	border-top:1px solid rgba(0,0,0,.12)
+}
+.menu li li:first-child a{
+	border-top:none
+}
+.menu li li a:focus,.menu li li a:hover{
+	color:#333;
+	color:rgba(0,0,0,.9);
+	outline:0
+}
+.menu li{
+	line-height:60px;
+	margin:0
+}
+.menu li li,.menu li ul{
+	line-height:0
+}
+
+#wrapper {
+  margin: auto;
+  width: 950px;
+  border: 1px;
+  padding-left: 3%;
+  padding-right: 3%;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0px 10px 1px #ddd, 0 10px 20px #ccc;
+}
